@@ -1,11 +1,14 @@
-import { Button } from "@/shared/ui"
+import { StoreProvider, RouterProvider } from "./providers";
+import { AppRouter } from "./router";
 
 function App() {
   return (
-    <>
-    <Button>Hello</Button>
-    </>
-  )
+    <StoreProvider>
+      <RouterProvider>
+        <AppRouter />
+      </RouterProvider>
+    </StoreProvider>
+  );
 }
 
-export default App
+export default App;
