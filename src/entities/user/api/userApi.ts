@@ -5,11 +5,11 @@ export const loginUser = async (
   email: string,
   password: string
 ): Promise<User> => {
-  const res = await axiosInstance.get<User[]>("/users", {
+  const response = await axiosInstance.get<User[]>("/users", {
     params: { email, password },
   });
 
-  const user = res.data[0];
+  const user = response.data[0];
   if (!user) throw new Error("Email atau password salah");
 
   return user;
