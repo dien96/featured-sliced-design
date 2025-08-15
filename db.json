@@ -1,61 +1,161 @@
 {
-    "users": [
-        {
-            "id": "123",
-            "email": "test@example.com",
-            "password": "password"
-        }
-    ],
-    "articles": [
-        {
-            "id": "1",
-            "title": "Judul 1",
-            "body": "Isi artikel 1"
-        },
-        {
-            "id": "2",
-            "title": "Judul 2",
-            "body": "Isi artikel 2"
-        },
-        {
-            "id": "3",
-            "title": "Judul 3",
-            "body": "Isi artikel 3"
-        },
-        {
-            "id": "4",
-            "title": "Judul 4",
-            "body": "Isi artikel 4"
-        },
-        {
-            "id": "5",
-            "title": "Judul 5",
-            "body": "Isi artikel 5"
-        },
-        {
-            "id": "6",
-            "title": "Judul 6",
-            "body": "Isi artikel 6"
-        },
-        {
-            "id": "7",
-            "title": "Judul 7",
-            "body": "Isi artikel 7"
-        },
-        {
-            "id": "8",
-            "title": "Judul 8",
-            "body": "Isi artikel 8"
-        },
-        {
-            "id": "9",
-            "title": "Judul 9",
-            "body": "Isi artikel 9"
-        },
-        {
-            "id": "10",
-            "title": "Judul 10",
-            "body": "Isi artikel 10"
-        }
-    ]
+  "users": [
+    {
+      "id": "123",
+      "email": "test@example.com",
+      "password": "password"
+    }
+  ],
+  "articles": [
+    {
+      "id": "1",
+      "title": "Judul 1 diubah",
+      "body": "Isi artikel 1 diubah"
+    },
+    {
+      "id": "2",
+      "title": "Judul 2",
+      "body": "Isi artikel 2"
+    },
+    {
+      "id": "3",
+      "title": "Judul 3",
+      "body": "Isi artikel 3"
+    },
+    {
+      "id": "4",
+      "title": "Judul 4",
+      "body": "Isi artikel 4"
+    },
+    {
+      "id": "5",
+      "title": "Judul 5",
+      "body": "Isi artikel 5"
+    },
+    {
+      "id": "6",
+      "title": "Judul 6",
+      "body": "Isi artikel 6"
+    },
+    {
+      "id": "7",
+      "title": "Judul 7",
+      "body": "Isi artikel 7"
+    },
+    {
+      "id": "8",
+      "title": "Judul 8",
+      "body": "Isi artikel 8"
+    },
+    {
+      "id": "9",
+      "title": "Judul 9",
+      "body": "Isi artikel 9"
+    },
+    {
+      "id": "10",
+      "title": "Judul 10",
+      "body": "Isi artikel 10"
+    },
+    {
+      "id": "11",
+      "title": "Judul 11",
+      "body": "Isi artikel 11"
+    },
+    {
+      "id": "12",
+      "title": "Judul 12",
+      "body": "Isi artikel 12"
+    },
+    {
+      "id": "13",
+      "title": "Judul 13",
+      "body": "Isi artikel 13"
+    },
+    {
+      "id": "14",
+      "title": "Judul 14",
+      "body": "Isi artikel 14"
+    },
+    {
+      "id": "15",
+      "title": "Judul 15",
+      "body": "Isi artikel 15"
+    },
+    {
+      "id": "16",
+      "title": "Judul 16",
+      "body": "Isi artikel 16"
+    },
+    {
+      "id": "17",
+      "title": "Judul 17",
+      "body": "Isi artikel 17"
+    },
+    {
+      "id": "18",
+      "title": "Judul 18",
+      "body": "Isi artikel 18"
+    },
+    {
+      "id": "19",
+      "title": "Judul 19",
+      "body": "Isi artikel 19"
+    },
+    {
+      "id": "20",
+      "title": "Judul 20",
+      "body": "Isi artikel 20"
+    },
+    {
+      "id": "21",
+      "title": "Judul 21",
+      "body": "Isi artikel 21"
+    },
+    {
+      "id": "22",
+      "title": "Judul 22",
+      "body": "Isi artikel 22"
+    },
+    {
+      "id": "23",
+      "title": "Judul 23",
+      "body": "Isi artikel 23"
+    },
+    {
+      "id": "24",
+      "title": "Judul 24",
+      "body": "Isi artikel 24"
+    },
+    {
+      "id": "25",
+      "title": "Judul 25",
+      "body": "Isi artikel 25"
+    },
+    {
+      "id": "26",
+      "title": "Judul 26",
+      "body": "Isi artikel 26"
+    },
+    {
+      "id": "27",
+      "title": "Judul 27",
+      "body": "Isi artikel 27"
+    },
+    {
+      "id": "28",
+      "title": "Judul 28",
+      "body": "Isi artikel 28"
+    },
+    {
+      "id": "29",
+      "title": "Judul 29",
+      "body": "Isi artikel 29"
+    },
+    {
+      "id": "30",
+      "title": "Judul 30",
+      "body": "Isi artikel 30"
+    }
+  ]
 }

@@ -3,6 +3,7 @@ import { ArticleCreateForm } from "@/features/article-create/ui";
 import { Header } from "@/widgets/header/ui/Header";
 import { ArticleList } from "@/widgets/articleList/ui";
 import { useSelector } from "react-redux";
+import { ArticlePagination } from "@/features/article-pagination/ui/ArticlePagination";
 
 export const HomePage = () => {
   const user = useSelector((state: RootState) => state.user.user);
@@ -12,12 +13,13 @@ export const HomePage = () => {
       <h1 className="text-3xl font-bold">Artikel-artikel</h1>
 
       {user && (
-        <div className="border p-4 rounded-3xl shadow">
+        <div className="border p-4 rounded-xl shadow">
           <h2 className="text-xl font-semibold mb-2">Artikel Baru</h2>
           <ArticleCreateForm />
         </div>
       )}
       <ArticleList />
+      <ArticlePagination />
     </div>
   );
 };

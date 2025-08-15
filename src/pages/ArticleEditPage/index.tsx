@@ -1,3 +1,10 @@
+import { ArticleEditForm } from "@/features/article-edit/ui";
+
 export const ArticleEditPage = () => {
-    return <div>article edit</div>
-}
+  return (
+    <div className="max-w-2xl mx-auto p-6">
+      <h1 className="text-2xl font-bold mb-4">Ubah artikel</h1>
+      <ArticleEditForm />
+    </div>
+  );
+};

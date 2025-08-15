@@ -26,22 +26,22 @@ export const DeleteArticleButton = ({ id }: { id: string }) => {
           <DialogTitle>Hapus Artikel</DialogTitle>
           <DialogDescription>Yakin hapus artikel?</DialogDescription>
         </DialogHeader>
-      </DialogContent>
 
-      <DialogFooter>
-        <Button variant="outline" onClick={() => setOpen(false)}>
-          Batal
-        </Button>
-        <Button
-          variant="destructive"
-          onClick={() => {
-            handleDelete();
-            setOpen(false);
-          }}
-        >
-          Konfirmasi
-        </Button>
-      </DialogFooter>
+        <DialogFooter>
+          <Button variant="outline" onClick={() => setOpen(false)}>
+            Batal
+          </Button>
+          <Button
+            variant="destructive"
+            onClick={() => {
+              handleDelete();
+              setOpen(false);
+            }}
+          >
+            Konfirmasi
+          </Button>
+        </DialogFooter>
+      </DialogContent>
     </Dialog>
   );
 };

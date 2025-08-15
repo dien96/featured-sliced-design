@@ -8,7 +8,6 @@ export const getArticlesApi = async (params: {
 }) => {
   const response = await axiosInstance.get("articles", { params });
 
-  console.log(response)
   return {
     data: response.data.data,
     total: Number(response.headers["x-total-count"]),

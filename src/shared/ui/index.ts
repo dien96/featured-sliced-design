@@ -16,6 +16,16 @@ import {
   DialogTrigger,
 } from "./dialog";
 
+import {
+  Pagination,
+  PaginationContent,
+  PaginationLink,
+  PaginationItem,
+  PaginationPrevious,
+  PaginationNext,
+  PaginationEllipsis,
+} from "./pagination";
+
 export {
   Button,
   Toaster,
@@ -32,4 +42,11 @@ export {
   DialogPortal,
   DialogTitle,
   DialogTrigger,
+  Pagination,
+  PaginationContent,
+  PaginationLink,
+  PaginationItem,
+  PaginationPrevious,
+  PaginationNext,
+  PaginationEllipsis,
 };
