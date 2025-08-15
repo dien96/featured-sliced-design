@@ -5,5 +5,57 @@
             "email": "test@example.com",
             "password": "password"
         }
+    ],
+    "articles": [
+        {
+            "id": "1",
+            "title": "Judul 1",
+            "body": "Isi artikel 1"
+        },
+        {
+            "id": "2",
+            "title": "Judul 2",
+            "body": "Isi artikel 2"
+        },
+        {
+            "id": "3",
+            "title": "Judul 3",
+            "body": "Isi artikel 3"
+        },
+        {
+            "id": "4",
+            "title": "Judul 4",
+            "body": "Isi artikel 4"
+        },
+        {
+            "id": "5",
+            "title": "Judul 5",
+            "body": "Isi artikel 5"
+        },
+        {
+            "id": "6",
+            "title": "Judul 6",
+            "body": "Isi artikel 6"
+        },
+        {
+            "id": "7",
+            "title": "Judul 7",
+            "body": "Isi artikel 7"
+        },
+        {
+            "id": "8",
+            "title": "Judul 8",
+            "body": "Isi artikel 8"
+        },
+        {
+            "id": "9",
+            "title": "Judul 9",
+            "body": "Isi artikel 9"
+        },
+        {
+            "id": "10",
+            "title": "Judul 10",
+            "body": "Isi artikel 10"
+        }
     ]
 }

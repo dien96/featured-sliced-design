@@ -12,7 +12,7 @@ export const ArticleCreateForm = () => {
         onChange={(e) => setTitle(e.target.value)}
       />
       <Textarea
-        placeholder="Text"
+        placeholder="Isi Artikel"
         value={body}
         onChange={(e) => setBody(e.target.value)}
       ></Textarea>

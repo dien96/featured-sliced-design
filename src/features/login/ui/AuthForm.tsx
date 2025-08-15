@@ -18,6 +18,7 @@ export const AuthForm = () => {
         <Label htmlFor="email">Email</Label>
         <Input
           disabled={isLoading}
+          type="email"
           id="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -33,7 +34,7 @@ export const AuthForm = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
       </div>
-      <Button type="submit" className="w-full">
+      <Button disabled={isLoading} type="submit" className="w-full">
         Login
       </Button>
     </form>

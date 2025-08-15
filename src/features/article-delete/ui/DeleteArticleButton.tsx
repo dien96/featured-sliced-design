@@ -24,7 +24,7 @@ export const DeleteArticleButton = ({ id }: { id: string }) => {
       <DialogContent>
         <DialogHeader>
           <DialogTitle>Hapus Artikel</DialogTitle>
-          <DialogDescription>lorem ipsum dolor sit amet</DialogDescription>
+          <DialogDescription>Yakin hapus artikel?</DialogDescription>
         </DialogHeader>
       </DialogContent>
 

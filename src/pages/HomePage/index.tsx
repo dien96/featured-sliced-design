@@ -1,6 +1,6 @@
 import type { RootState } from "@/app/stores/mainStore";
 import { ArticleCreateForm } from "@/features/article-create/ui";
-import { Header } from "@/header/ui/Header";
+import { Header } from "@/widgets/header/ui/Header";
 import { ArticleList } from "@/widgets/articleList/ui";
 import { useSelector } from "react-redux";
 

@@ -18,7 +18,7 @@ export const ArticleList = () => {
   return (
     <div>
       {articles.length === 0 ? (
-        <p>Tidak ada artikel</p>
+        <p className="text-center">Tidak ada artikel</p>
       ) : (
         articles.map((article) => {
           return (
@@ -26,7 +26,7 @@ export const ArticleList = () => {
               {user?.id && (
                 <>
                   <Link to={`/articles/${article.id}/edit`}>
-                    <Button variant={"outline"}>Edit</Button>
+                    <Button variant={"outline"}>Ubah</Button>
                   </Link>
                   <DeleteArticleButton id={article.id} />
                 </>

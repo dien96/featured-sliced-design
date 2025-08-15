@@ -1,3 +1,3 @@
-import { getArticleApi, addArticleApi, editArticleApi, deleteArticleApi } from "./articleApi";
+import { getArticlesApi, addArticleApi, editArticleApi, deleteArticleApi } from "./articleApi";
 
-export { getArticleApi, addArticleApi, editArticleApi, deleteArticleApi };
+export { getArticlesApi, addArticleApi, editArticleApi, deleteArticleApi };

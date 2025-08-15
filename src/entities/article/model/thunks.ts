@@ -3,7 +3,7 @@ import {
   addArticleApi,
   deleteArticleApi,
   editArticleApi,
-  getArticleApi,
+  getArticlesApi,
 } from "../api";
 import { toast } from "sonner";
 import type { Article } from "./types";
@@ -19,27 +19,13 @@ export const getArticles = createAsyncThunk(
     thunkAPI
   ) => {
     try {
-      const response = await getArticleApi({
+      const response = await getArticlesApi({
         _page: page,
         _per_page: limit,
         title_like: searchQuery,
       });
 
       return response;
-    } catch (error: any) {
-      toast.error(error.message);
-      return thunkAPI.rejectWithValue(error.message);
-    }
-  }
-);
-
-export const editArticle = createAsyncThunk(
-  "article/editArticle",
-  async (article: Article, thunkAPI) => {
-    try {
-      const updateArticle = await editArticleApi(article);
-      toast.success("Artikel diperbarui");
-      return updateArticle;
     } catch (error: any) {
       toast.error(error.message);
       return thunkAPI.rejectWithValue(error.message);
@@ -60,6 +46,21 @@ export const addArticle = createAsyncThunk(
     }
   }
 );
+
+export const editArticle = createAsyncThunk(
+  "article/editArticle",
+  async (article: Article, thunkAPI) => {
+    try {
+      const updatedArticle = await editArticleApi(article);
+      toast.success("Artikel diperbarui");
+      return updatedArticle;
+    } catch (error: any) {
+      toast.error(error.message);
+      return thunkAPI.rejectWithValue(error.message);
+    }
+  }
+);
+
 
 export const deleteArticle = createAsyncThunk(
   "article/deleteArticle",

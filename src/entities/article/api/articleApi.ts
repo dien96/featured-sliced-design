@@ -1,15 +1,16 @@
 import { axiosInstance } from "@/shared/api";
 import type { Article } from "../model";
 
-export const getArticleApi = async (params: {
+export const getArticlesApi = async (params: {
   _page?: number;
   _per_page?: number;
   title_like?: string;
 }) => {
   const response = await axiosInstance.get("articles", { params });
 
+  console.log(response)
   return {
-    data: response.data,
+    data: response.data.data,
     total: Number(response.headers["x-total-count"]),
   };
 };
@@ -29,4 +30,5 @@ export const editArticleApi = async (article: Article) => {
 
 export const deleteArticleApi = async (id: string) => {
   await axiosInstance.delete(`articles/${id}`);
+  return id;
 };
