@@ -1,5 +1,6 @@
 import type { RootState } from "@/app/stores/mainStore";
 import { ArticleCreateForm } from "@/features/article-create/ui";
+import { Header } from "@/header/ui/Header";
 import { ArticleList } from "@/widgets/articleList/ui";
 import { useSelector } from "react-redux";
 
@@ -7,6 +8,7 @@ export const HomePage = () => {
   const user = useSelector((state: RootState) => state.user.user);
   return (
     <div className="max-w-3xl mx-auto p-6 space-y-6">
+      <Header />
       <h1 className="text-3xl font-bold">Artikel-artikel</h1>
 
       {user && (
